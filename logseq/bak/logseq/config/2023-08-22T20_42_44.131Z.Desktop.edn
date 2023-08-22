@@ -415,6 +415,6 @@
  :feature/enable-timetracking? false
  :editor/preferred-pasting-file? true
  :feature/enable-journals? false
- :default-home {:page "outline"}
+ :default-home {:page "Outline"}
  :feature/enable-whiteboards? false
  :feature/enable-flashcards? false}
