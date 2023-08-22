@@ -10,7 +10,8 @@
 	- Tools
 		- VSCode
 	- [JSitor](https://jsitor.com/)
-	-
+	- ![Screenshot 2023-08-22 at 16.44.31.png](../assets/Screenshot_2023-08-22_at_16.44.31_1692737078074_0.png)
+		-
 - Project
 - Web Coding
 - R
