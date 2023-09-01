@@ -2,7 +2,10 @@ name: Compile Latex and Release PDF
 
 on:
   push:
-    branches: [ env/r ]
+    branches: [ main ]
+
+env:
+  SEMVERBOT_VERSION: "1.0.0"
 
 jobs:
   build_latex:
@@ -15,21 +18,28 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: main.tex
+
+      - name: set up sbot path
+        run: |
+          mkdir bin
+          echo "$(pwd)/bin" >> $GITHUB_PATH
+
       - name: install semverbot
         run: |
           curl -o bin/sbot -L https://github.com/restechnica/semverbot/releases/download/v$SEMVERBOT_VERSION/sbot-linux-amd64
           chmod +x bin/sbot
+
       - name: update version
         run: |
           sbot update version
           current_version="$(sbot get version)"
           release_version="$(sbot predict version -m patch)"
           
-          echo "CURRENT_VERSION=${current_version}" >> $GITHUB_ENV
-          echo "RELEASE_VERSION=${release_version}" >> $GITHUB_ENV
+          echo "CURRENT_VERSION=v${current_version}" >> $GITHUB_ENV
+          echo "RELEASE_VERSION=v${release_version}" >> $GITHUB_ENV
           
-          echo "current version: ${current_version}"
-          echo "next version: ${release_version}"
+          echo "current version: v${current_version}"
+          echo "next version: v${release_version}"
 
       - name: release version
         run: |
@@ -37,7 +47,7 @@ jobs:
           sbot push version
 
       - name: Generate Changelog
-        run: git log "$CURRENT_VERSION"..."$RELEASE_VERSION" --pretty=%s --first-parent > ${{ github.workspace }}-CHANGELOG.txt
+        run: git log ${{ env.CURRENT_VERSION }}..${{ env.RELEASE_VERSION }} --pretty=%s --first-parent > ${{ github.workspace }}-CHANGELOG.txt
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
