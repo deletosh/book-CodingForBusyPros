@@ -4,6 +4,9 @@ on:
   push:
     branches: [ env/r ]
 
+env:
+  SEMVERBOT_VERSION: "1.0.0"
+
 jobs:
   build_latex:
     runs-on: ubuntu-latest
@@ -15,10 +18,12 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: main.tex
+
       - name: install semverbot
         run: |
           curl -o bin/sbot -L https://github.com/restechnica/semverbot/releases/download/v$SEMVERBOT_VERSION/sbot-linux-amd64
           chmod +x bin/sbot
+
       - name: update version
         run: |
           sbot update version
@@ -37,7 +42,7 @@ jobs:
           sbot push version
 
       - name: Generate Changelog
-        run: git log "$CURRENT_VERSION"..."$RELEASE_VERSION" --pretty=%s --first-parent > ${{ github.workspace }}-CHANGELOG.txt
+        run: git log ${{ env.CURRENT_VERSION }}... ${{ env.RELEASE_VERSION }} --pretty=%s --first-parent > ${{ github.workspace }}-CHANGELOG.txt
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
