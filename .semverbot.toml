@@ -1,0 +1,24 @@
+mode = "auto"
+
+[git]
+
+[git.config]
+email = "ask@deletosh.com"
+name = "Dele Tosh"
+
+[git.tags]
+prefix = "v"
+
+[semver]
+patch = ["fix", "bug", "alpha", "beta"]
+minor = ["feature"]
+major = ["release"]
+
+[modes]
+
+[modes.git-branch]
+delimiters = "/"
+
+[modes.git-commit]
+delimiters = "[]"
+
