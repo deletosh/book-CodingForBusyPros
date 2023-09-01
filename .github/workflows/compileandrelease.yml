@@ -47,7 +47,7 @@ jobs:
           sbot push version
 
       - name: Generate Changelog
-        run: git log ${{ env.CURRENT_VERSION }}... ${{ env.RELEASE_VERSION }} --pretty=%s --first-parent > ${{ github.workspace }}-CHANGELOG.txt
+        run: git log ${{ env.CURRENT_VERSION }}..${{ env.RELEASE_VERSION }} --pretty=%s --first-parent > ${{ github.workspace }}-CHANGELOG.txt
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
