@@ -18,35 +18,10 @@ jobs:
           root_file: main.tex
 
       - name: Create Release
-        id: create_release
-        uses: "actions/github-script@v6"
+        uses: softprops/action-gh-release@v1
+        #        if: startsWith(github.ref, 'refs/tags/')
         with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-          script: |
-            try {
-              const response = await github.rest.repos.createRelease({
-                draft: false,
-                generate_release_notes: true,
-                name: process.env.RELEASE_TAG,
-                owner: context.repo.owner,
-                prerelease: false,
-                repo: context.repo.repo,
-                tag_name: process.env.RELEASE_TAG,
-              });
-            
-              core.exportVariable('RELEASE_ID', response.data.id);
-              core.exportVariable('RELEASE_UPLOAD_URL', response.data.upload_url);
-            } catch (error) {
-              core.setFailed(error.message);
-            }
-
-      - name: Upload Release Asset
-        id: upload-release-asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./main.pdf
-          asset_name: main.pdf
-          asset_content_type: pdf
+          generate_release_notes: true
+          discussion_category_name: "General"
+          files: |
+            main.pdf
