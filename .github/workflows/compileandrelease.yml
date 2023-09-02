@@ -36,15 +36,16 @@ jobs:
           echo "current version: v${current_version}"
           echo "next version: v${release_version}"
 
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: main.tex
+
       - name: release version
         run: |
           sbot release version
           sbot push version
 
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
-        with:
-          root_file: main.tex
 
       - name: Generate Changelog
         run: git log ${{ env.CURRENT_VERSION }}..${{ env.RELEASE_VERSION }} --pretty=%s --first-parent > ${{ github.workspace }}-CHANGELOG.txt
