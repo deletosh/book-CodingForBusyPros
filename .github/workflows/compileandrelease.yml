@@ -59,3 +59,11 @@ jobs:
           body_path: ${{ github.workspace }}-CHANGELOG.txt
           files: |
             main.pdf
+
+      - name: Notify Beta Readers
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjUwNTZmMDYzNzA0MzM1MjY1NTUzZDUxMzQi_pc'
+          method: 'POST'
+          customHeaders: '{"Content-Type": "application/json"}'
+          data: '{"releaseURL": "https://github.com/deletosh/book-CodingForBusyPros/releases/tag/${{ env.RELEASE_VERSION }}"}'
