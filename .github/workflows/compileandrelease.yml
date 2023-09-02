@@ -66,4 +66,4 @@ jobs:
           url: 'https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjUwNTZmMDYzNzA0MzM1MjY1NTUzZDUxMzQi_pc'
           method: 'POST'
           customHeaders: '{"Content-Type": "application/json"}'
-          data: '{"releaseURL": "https://github.com/deletosh/book-CodingForBusyPros/releases/tag/${{ env.RELEASE_VERSION }}"}'
+          data: '{"releaseURL": "https://github.com/deletosh/book-CodingForBusyPros/releases/tag/${{ env.RELEASE_VERSION }}", "version" : "${{ env.RELEASE_VERSION }}" }'
