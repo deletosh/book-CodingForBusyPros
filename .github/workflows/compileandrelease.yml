@@ -14,11 +14,6 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
 
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
-        with:
-          root_file: main.tex
-
       - name: set up sbot path
         run: |
           mkdir bin
@@ -46,6 +41,11 @@ jobs:
           sbot release version
           sbot push version
 
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: main.tex
+
       - name: Generate Changelog
         run: git log ${{ env.CURRENT_VERSION }}..${{ env.RELEASE_VERSION }} --pretty=%s --first-parent > ${{ github.workspace }}-CHANGELOG.txt
 
@@ -53,6 +53,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         #        if: startsWith(github.ref, 'refs/tags/')
         with:
+          tag_name: ${{ env.RELEASE_VERSION }}
           generate_release_notes: true
           discussion_category_name: "General"
           body_path: ${{ github.workspace }}-CHANGELOG.txt
