@@ -2,7 +2,7 @@
 
 **Volume 1: Building Apps for the Web with HTML, CSS & JavaScript**
 
-[Download the latest version](https://github.com/deletosh/book-CodingForBusyPros/releases)
+[<button> Download the latest version ❯ </button>](https://github.com/deletosh/book-CodingForBusyPros/releases)
 
 > 💡 This is an Early Release. You're getting the raw and unedited content as I write. I'm doing this so you can take
 > advantage of the content before the official release AND you can share critical feedback (plus, I include you in the
@@ -40,11 +40,13 @@ pace.
 You fit it somewhere between your 9 to 5, or 5 to 9 or 12 to 1, you find small bits of time, this book gets you there.
 
 So if you’re ready to learn how to code without all the
-fuss. [Download the latest version now](https://github.com/deletosh/book-CodingForBusyPros/releases)
+fuss. 
 
-![Coding for Busy Professionals Book](https://github.com/deletosh/book-CodingForBusyPros/actions/workflows/compileandrelease.yml/badge.svg)
+[<button> Download the latest version now ❯ </button>](https://github.com/deletosh/book-CodingForBusyPros/releases)
 
-## My Writing Stack
+
+
+### My Writing Stack
 
 I'm writing this book in public. For the curious, here's my tools:
 
@@ -54,3 +56,7 @@ I'm writing this book in public. For the curious, here's my tools:
 - Reference Management: [Zotero](https://www.zotero.org/)
 - Code examples: [CodeSandbox](https://codesandbox.io) & [VSCodium](https://vscodium.com/)
 - Planning: [Logseq](https://logseq.com/)
+
+***
+
+![Coding for Busy Professionals Book](https://github.com/deletosh/book-CodingForBusyPros/actions/workflows/compileandrelease.yml/badge.svg)
