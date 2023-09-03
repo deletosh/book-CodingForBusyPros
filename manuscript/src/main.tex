@@ -1,0 +1,49 @@
+%! Author = deletosh
+%! Date = 9/1/23
+
+% Preamble
+\documentclass[titlepage]{book}
+\title{%
+    Coding for Busy Professionals \\
+    \large A Jargon-Free Guide for Adults With Big Goals but Little Time \\
+    Building Apps for the Web: \textsc{HTML, CSS \& JavaScript}
+}
+\author{Dele Tosh}
+
+\includeonly{
+    sections/introduction/00-main.tex,
+    sections/big-picture/00-main.tex,
+    sections/html/00-main.tex,
+    sections/css/00-main.tex,
+    sections/javascript/00-main.tex,
+    sections/appx/00-main.tex
+}
+
+% Packages
+\usepackage{amsmath}
+\usepackage{xr-hyper}
+\usepackage{hyperref}
+\usepackage{awesomebox}
+\usepackage[toc, page]{appendix}
+\usepackage{biblatex}
+\addbibresource{references.bib}
+%\usepackage[tocindentauto, tocflat]{tocstyle}
+
+% Document
+\begin{document}
+    \frontmatter
+%\include{frontcover}
+    \maketitle
+    \thispagestyle{empty}
+    Copyright \textcopyright 2023 Dele Tosh
+    \tableofcontents
+
+    \mainmatter
+    \include{sections/introduction/00-main}
+    \include{sections/big-picture/00-main}
+    \include{sections/html/00-main}
+    \include{sections/javascript/00-main}
+    \include{sections/appx/00-main}
+
+    \printbibliography
+\end{document}
