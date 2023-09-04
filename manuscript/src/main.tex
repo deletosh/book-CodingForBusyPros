@@ -5,7 +5,7 @@
 \documentclass[titlepage]{book}
 \title{%
     Coding for Busy Professionals \\
-    \large A Jargon-Free Guide for Adults With Big Goals but Little Time \\
+    \large A Simpler Guide for Adults With Big Goals but Little Time \\
     Building Apps for the Web: \textsc{HTML, CSS \& JavaScript}
 }
 \author{Dele Tosh}
@@ -25,9 +25,14 @@
 \usepackage{hyperref}
 \usepackage{awesomebox}
 \usepackage[toc, page]{appendix}
-\usepackage{biblatex}
+\usepackage[backend=biber]{biblatex}
 \addbibresource{references.bib}
 %\usepackage[tocindentauto, tocflat]{tocstyle}
+
+% Cross-references
+\externaldocument[appx-]{sections/appx/SetupNotion}
+\externaldocument[appx-]{sections/appx/SetupFigma}
+\externaldocument[appx-]{sections/appx/SetupBalsamiq}
 
 % Document
 \begin{document}

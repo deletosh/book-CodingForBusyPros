@@ -7,3 +7,6 @@ auxil
 */**/*.out
 main.toc
 manuscript/out
+sections/
+manuscript/main.bcf
+manuscript/main.run.xml
