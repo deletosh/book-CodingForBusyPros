@@ -61,7 +61,6 @@ jobs:
           discussion_category_name: "General"
           body_path: ${{ github.workspace }}-CHANGELOG.txt
           files: |
-#            manuscript/out/main.pdf
             manuscript/src/main.pdf
 
       - name: Notify Beta Readers
