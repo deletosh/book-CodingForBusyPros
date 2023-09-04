@@ -4,8 +4,8 @@ auxil
 */**/*.log
 */**/*.dvi
 */**/*.out
-main.toc
+#main.toc
 manuscript/out
 #sections/
-manuscript/main.bcf
+#manuscript/main.bcf
 manuscript/main.run.xml
