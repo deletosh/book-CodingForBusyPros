@@ -15,16 +15,15 @@
 \contentsline {part}{II\hspace {1em}HTML}{11}{part.2}%
 \contentsline {chapter}{\numberline {4}Create Your First HTML Page}{15}{chapter.4}%
 \contentsline {part}{III\hspace {1em}JavaScript}{17}{part.3}%
-\contentsline {chapter}{Appendices}{21}{section*.2}%
-\contentsline {chapter}{\numberline {A}Setup Logseq}{23}{appendix.1.A}%
-\contentsline {section}{\numberline {A.1}How to sync your notes on a Mac}{23}{section.1.A.1}%
-\contentsline {section}{\numberline {A.2}How to sync your notes on Windows}{23}{section.1.A.2}%
-\contentsline {section}{\numberline {A.3}How to sync your notes on Android}{23}{section.1.A.3}%
-\contentsline {section}{\numberline {A.4}How to sync your notes on iOS}{23}{section.1.A.4}%
-\contentsline {chapter}{\numberline {B}Set up Your Commandline}{25}{appendix.1.B}%
-\contentsline {section}{\numberline {B.1}Setup Command Line for Mac}{25}{section.1.B.1}%
-\contentsline {section}{\numberline {B.2}Setup Command-Line for Windows}{25}{section.1.B.2}%
-\contentsline {chapter}{\numberline {C}How to set up a GitHub Account}{27}{appendix.1.C}%
-\contentsline {chapter}{\numberline {D}How to set up a Notion Account}{29}{appendix.1.D}%
-\contentsline {chapter}{\numberline {E}How to set up a Figma}{31}{appendix.1.E}%
-\contentsline {chapter}{\numberline {F}How to set up a Balsamiq}{33}{appendix.1.F}%
+\contentsline {chapter}{\numberline {A}Setup Logseq}{21}{appendix.A}%
+\contentsline {section}{\numberline {A.1}How to sync your notes on a Mac}{21}{section.A.1}%
+\contentsline {section}{\numberline {A.2}How to sync your notes on Windows}{21}{section.A.2}%
+\contentsline {section}{\numberline {A.3}How to sync your notes on Android}{21}{section.A.3}%
+\contentsline {section}{\numberline {A.4}How to sync your notes on iOS}{21}{section.A.4}%
+\contentsline {chapter}{\numberline {B}Set up Your Commandline}{23}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Setup Command Line for Mac}{23}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Setup Command-Line for Windows}{23}{section.B.2}%
+\contentsline {chapter}{\numberline {C}How to set up a GitHub Account}{25}{appendix.C}%
+\contentsline {chapter}{\numberline {D}How to set up a Notion Account}{27}{appendix.D}%
+\contentsline {chapter}{\numberline {E}How to set up a Figma}{29}{appendix.E}%
+\contentsline {chapter}{\numberline {F}How to set up a Balsamiq}{31}{appendix.F}%
