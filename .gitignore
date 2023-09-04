@@ -1,12 +1,11 @@
 .idea
 out
 auxil
-*/**/*.aux
 */**/*.log
 */**/*.dvi
 */**/*.out
 main.toc
 manuscript/out
-sections/
+#sections/
 manuscript/main.bcf
 manuscript/main.run.xml
