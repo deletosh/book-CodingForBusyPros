@@ -37,10 +37,12 @@ jobs:
           echo "next version: v${release_version}"
 
       - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v3
         with:
-          compiler: 'xelatex'
+          working_directory: manuscript/src
+          #          compiler: 'xelatex'
           root_file: manuscript/src/main.tex
+          latexmk_use_xelatex: true
 
       - name: release version
         run: |
