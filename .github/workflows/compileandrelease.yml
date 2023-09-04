@@ -61,7 +61,8 @@ jobs:
           discussion_category_name: "General"
           body_path: ${{ github.workspace }}-CHANGELOG.txt
           files: |
-            main.pdf
+#            manuscript/out/main.pdf
+            manuscript/src/main.pdf
 
       - name: Notify Beta Readers
         uses: fjogeleit/http-request-action@v1
