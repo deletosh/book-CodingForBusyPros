@@ -1,29 +1,34 @@
 \contentsline {section}{\numberline {0.1}Why This Book}{1}{section.0.1}%
-\contentsline {section}{\numberline {0.2}Why can't I just use ChatGPT?}{1}{section.0.2}%
-\contentsline {section}{\numberline {0.3}How to Use this book}{1}{section.0.3}%
-\contentsline {part}{I\hspace {1em}The Big Picture}{3}{part.1}%
-\contentsline {chapter}{\numberline {1}How the internet and web works}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}How the internet works}{5}{section.1.1}%
-\contentsline {section}{\numberline {1.2}How to websites work and building it}{5}{section.1.2}%
-\contentsline {chapter}{\numberline {2}How to plan a website build}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}How web developers plan their building process}{7}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Try it: Plan your website}{7}{subsection.2.1.1}%
-\contentsline {chapter}{\numberline {3}Design your website, visually}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Start with your wireframes with Balsamiq}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Make it look pretty with Figma}{9}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Try it: Design your website}{9}{subsection.3.2.1}%
-\contentsline {part}{II\hspace {1em}HTML}{11}{part.2}%
-\contentsline {chapter}{\numberline {4}Create Your First HTML Page}{15}{chapter.4}%
-\contentsline {part}{III\hspace {1em}JavaScript}{17}{part.3}%
-\contentsline {chapter}{\numberline {A}Setup Logseq}{21}{appendix.A}%
-\contentsline {section}{\numberline {A.1}How to sync your notes on a Mac}{21}{section.A.1}%
-\contentsline {section}{\numberline {A.2}How to sync your notes on Windows}{21}{section.A.2}%
-\contentsline {section}{\numberline {A.3}How to sync your notes on Android}{21}{section.A.3}%
-\contentsline {section}{\numberline {A.4}How to sync your notes on iOS}{21}{section.A.4}%
-\contentsline {chapter}{\numberline {B}Set up Your Commandline}{23}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Setup Command Line for Mac}{23}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Setup Command-Line for Windows}{23}{section.B.2}%
-\contentsline {chapter}{\numberline {C}How to set up a GitHub Account}{25}{appendix.C}%
-\contentsline {chapter}{\numberline {D}How to set up a Notion Account}{27}{appendix.D}%
-\contentsline {chapter}{\numberline {E}How to set up a Figma}{29}{appendix.E}%
-\contentsline {chapter}{\numberline {F}How to set up a Balsamiq}{31}{appendix.F}%
+\contentsline {section}{\numberline {0.2}Who is book for?}{1}{section.0.2}%
+\contentsline {section}{\numberline {0.3}How to Use this book}{2}{section.0.3}%
+\contentsline {subsection}{\numberline {0.3.1}Start with 15 minutes}{2}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {0.3.2}How to "Try It"}{2}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {0.3.3}Get help from me and the community}{2}{subsection.0.3.3}%
+\contentsline {section}{\numberline {0.4}Try it: Join my community}{2}{section.0.4}%
+\contentsline {section}{\numberline {0.5}Why can't I just use ChatGPT?}{3}{section.0.5}%
+\contentsline {part}{I\hspace {1em}The Big Picture}{5}{part.1}%
+\contentsline {chapter}{\numberline {1}How the internet and web works}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}How the internet works}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}How to websites work and building it}{7}{section.1.2}%
+\contentsline {chapter}{\numberline {2}How to plan a website build}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}How web developers plan their building process}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Try it: Plan your website}{9}{subsection.2.1.1}%
+\contentsline {chapter}{\numberline {3}Design your website, visually}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Start with your wireframes with Balsamiq}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Make it look pretty with Figma}{11}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Try it: Design your website}{11}{subsection.3.2.1}%
+\contentsline {part}{II\hspace {1em}HTML}{13}{part.2}%
+\contentsline {chapter}{\numberline {4}Create Your First HTML Page}{17}{chapter.4}%
+\contentsline {part}{III\hspace {1em}JavaScript}{19}{part.3}%
+\contentsline {chapter}{\numberline {A}Setup Logseq}{23}{appendix.A}%
+\contentsline {section}{\numberline {A.1}How to sync your notes on a Mac}{23}{section.A.1}%
+\contentsline {section}{\numberline {A.2}How to sync your notes on Windows}{23}{section.A.2}%
+\contentsline {section}{\numberline {A.3}How to sync your notes on Android}{23}{section.A.3}%
+\contentsline {section}{\numberline {A.4}How to sync your notes on iOS}{23}{section.A.4}%
+\contentsline {chapter}{\numberline {B}Set up Your Commandline}{25}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Setup Command Line for Mac}{25}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Setup Command-Line for Windows}{25}{section.B.2}%
+\contentsline {chapter}{\numberline {C}How to set up a GitHub Account}{27}{appendix.C}%
+\contentsline {chapter}{\numberline {D}How to set up a Notion Account}{29}{appendix.D}%
+\contentsline {chapter}{\numberline {E}How to set up a Figma}{31}{appendix.E}%
+\contentsline {chapter}{\numberline {F}How to set up a Balsamiq}{33}{appendix.F}%
